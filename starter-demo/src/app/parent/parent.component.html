@@ -1,0 +1,28 @@
+<div>====================== Get From Service With Observable=====================</div>
+<div class="row">
+    <div class="col-sm-3">
+        <ul>
+            <li *ngFor = " let user of users ; let i = index ">
+                {{user.id + '- '}}  {{user.name}}
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-3">
+        <p>fake users</p>
+        <ul>
+            <li *ngFor = " let user of fakeUsers ; let i = index ">
+                {{user.id + '- '}}  {{user.first_name}} - {{user.last_name}}
+            </li>
+        </ul> 
+ 
+    </div> 
+    <div class="col-sm-3">
+        <p>Iam in bootstrap div</p> 
+
+    </div>
+    <div class="col-sm-3">
+       <p>Iam in bootstrap div</p>
+
+    </div>
+</div>
+
