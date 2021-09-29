@@ -1,0 +1,39 @@
+.square-red >div
+{
+    width: 5rem;
+    height: 5rem;
+    background-color:sienna;
+    transition: width 6s ,height 6s;
+   
+}
+.square-red,div  :hover
+{
+    width: 20rem;
+    height: 20rem;
+    
+}
+.img-resize 
+{
+    width: 5rem;
+    height: 5rem;
+    transition: width 6s ,height 6s; 
+}
+ img :hover
+{
+    width: 20rem;
+    height: 20rem;
+
+}
+.square-black >div
+{
+    width: 5rem;
+    height: 5rem;
+    background-color :black;
+    transition: width 6s ,height 6s;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
