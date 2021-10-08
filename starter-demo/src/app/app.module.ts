@@ -8,6 +8,9 @@ import { ParentComponent } from './parent/parent.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+import { UsersComponent } from './users/users.component';
+import { StarterComponent } from './starter/starter.component';
+import { FontsTextComponent } from './fonts-text/fonts-text.component';
 
 
 
@@ -17,6 +20,9 @@ import { RouterModule, Routes } from '@angular/router';
     ParentComponent,
     NotfoundComponent,
     HomeComponent,
+    UsersComponent,
+    StarterComponent,
+    FontsTextComponent,
   ],
   imports: [
     BrowserModule,
