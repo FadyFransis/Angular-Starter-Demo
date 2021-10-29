@@ -6,7 +6,7 @@
     transition: width 6s ,height 6s;
    
 }
-.square-red,div  :hover
+div.square-red  :hover
 {
     width: 20rem;
     height: 20rem;
@@ -24,13 +24,12 @@
     height: 20rem;
 
 }
-.square-black >div
+div.square-black 
 {
     width: 5rem;
     height: 5rem;
-    background-color :black;
+    background-color:black;
     transition: width 6s ,height 6s;
-    animation: mymove 5s infinite;
 }
 @keyframes mymove {
   from {left: 0px;}
