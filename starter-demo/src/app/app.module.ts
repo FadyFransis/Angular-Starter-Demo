@@ -11,6 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UsersComponent } from './users/users.component';
 import { StarterComponent } from './starter/starter.component';
 import { FontsTextComponent } from './fonts-text/fonts-text.component';
+import { IconListLinkComponent } from './icon-list-link/icon-list-link.component';
 
 
 
@@ -23,6 +24,7 @@ import { FontsTextComponent } from './fonts-text/fonts-text.component';
     UsersComponent,
     StarterComponent,
     FontsTextComponent,
+    IconListLinkComponent,
   ],
   imports: [
     BrowserModule,
